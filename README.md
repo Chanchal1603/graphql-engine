@@ -11,7 +11,7 @@
 
 Hasura GraphQL Engine is a blazing-fast GraphQL server that gives you **instant, realtime GraphQL APIs over Postgres**, with [**webhook triggers**](event-triggers.md) on database events, and [**remote schemas**](remote-schemas.md) for business logic.
 
-Hasura helps you build [GraphQL](https://hasura.io/graphql/) apps backed by Postgres or incrementally move to GraphQL for existing applications using Postgres.
+Hasura helps you to build [GraphQL](https://hasura.io/graphql/) apps backed by Postgres or incrementally move to GraphQL for existing applications using Postgres.
 
 Read more at [hasura.io](https://hasura.io) and the [docs](https://hasura.io/docs/).
 
@@ -27,15 +27,15 @@ Read more at [hasura.io](https://hasura.io) and the [docs](https://hasura.io/doc
 
 ## Features
 
-* **Make powerful queries**: Built-in filtering, pagination, pattern search, bulk insert, update, delete mutations
-* **Realtime**: Convert any GraphQL query to a live query by using subscriptions
+* **Make powerful queries**: Built-in filtering, pagination, pattern search, bulk insert, update, delete mutations.
+* **Realtime**: Convert any GraphQL query to a live query by using subscriptions.
 * **Merge remote schemas**: Access custom GraphQL schemas for business logic via a single GraphQL Engine endpoint. [**Read more**](remote-schemas.md).
 * **Trigger webhooks or serverless functions**: On Postgres insert/update/delete events ([read more](event-triggers.md))
-* **Works with existing, live databases**: Point it to an existing Postgres database to instantly get a ready-to-use GraphQL API
-* **Fine-grained access control**: Dynamic access control that integrates with your auth system (eg: auth0, firebase-auth)
-* **High-performance & low-footprint**: ~15MB docker image; ~50MB RAM @ 1000 req/s; multi-core aware
-* **Admin UI & Migrations**: Admin UI & Rails-inspired schema migrations
-* **Postgres** ❤️: Supports Postgres types (PostGIS/geo-location, etc.), turns views to *graphs*, trigger stored functions or procedures with mutations
+* **Works with existing, live databases**: Point it to an existing Postgres database to instantly get a ready-to-use GraphQL API.
+* **Fine-grained access control**: Dynamic access control that integrates with your auth system (eg: auth0, firebase-auth).
+* **High-performance & low-footprint**: ~15MB docker image; ~50MB RAM @ 1000 req/s; multi-core aware.
+* **Admin UI & Migrations**: Admin UI & Rails-inspired schema migrations.
+* **Postgres** ❤️: Supports Postgres types (PostGIS/geo-location, etc.), turns views to *graphs*, trigger stored functions or procedures with mutations.
 
 Read more at [hasura.io](https://hasura.io) and the [docs](https://hasura.io/docs/).
 
@@ -69,15 +69,15 @@ Read more at [hasura.io](https://hasura.io) and the [docs](https://hasura.io/doc
 
 The fastest and easiest way to try Hasura out is via [Hasura Cloud](https://hasura.io/docs/cloud/1.0/manual/getting-started/index.html).
 
-1. Click on the following button to deploy GraphQL engine on Hasura Cloud including Postgres add-on or using an existing Postgres database:
+1. Click on the following button to deploy GraphQL engine on Hasura Cloud including Postgres add-on or using an existing Postgres Database:
 
     [![Deploy to Hasura Cloud](https://graphql-engine-cdn.hasura.io/img/deploy_to_hasura.png)](https://cloud.hasura.io/)
 
-2. Open the Hasura console
+2. Open the Hasura console-
 
    Click on the button "Launch console" to open the Hasura console.
 
-3. Make your first GraphQL query
+3. Make your first GraphQL query-
 
    Create a table and instantly run your first query. Follow this [simple guide](https://hasura.io/docs/1.0/graphql/manual/getting-started/first-graphql-query.html).
 
@@ -100,7 +100,7 @@ guides](https://hasura.io/docs/1.0/graphql/manual/getting-started/index.html) or
 
 ## Architecture
 
-The Hasura GraphQL Engine fronts a Postgres database instance and can accept GraphQL requests from your client apps. It can be configured to work with your existing auth system and can handle access control using field-level rules with dynamic variables from your auth system.
+The Hasura GraphQL Engine fronts a Postgres database instance and can accept GraphQL requests from your client apps. It can be configured to work with your existing authentication system and can handle access control using field-level rules with dynamic variables from your auth system.
 
 You can also merge remote GraphQL schemas and provide a unified GraphQL API.
 
@@ -168,7 +168,7 @@ The documentation and community will help you troubleshoot most issues. If you h
 * Follow product updates: [@HasuraHQ](https://twitter.com/hasurahq)
 * Talk to us on our [website chat](https://hasura.io)
 
-We are committed to fostering an open and welcoming environment in the community. Please see the [Code of Conduct](code-of-conduct.md).
+We are committed to fostering an open and welcoming environment for beginners in the community. Please see the [Code of Conduct](code-of-conduct.md).
 
 If you want to report a security issue, please [read this](SECURITY.md).
 
